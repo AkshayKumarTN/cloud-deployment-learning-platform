@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   web:
-    image: ghcr.io/${GITHUB_REPOSITORY:-username/devops-project}:latest
+    image: ghcr.io/akshaykumartn/cloud-deployment-learning-platform:latest
     container_name: devops-web
     restart: unless-stopped
     ports:
